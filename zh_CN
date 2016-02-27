@@ -58,7 +58,7 @@ psi.versioning.doneDownloading=%s下载完成，删除旧的Psi .jar然后重新
 psi.versioning.downloadedAlready你已经下载了最新的版本。关掉你的游戏，从你的mods文件夹里删除旧的版本并且再加载它一遍来升级。
 psi.versioning.downloadingAlready=新的版本已经下载，给它一些时间，你会的吧？
 psi.versioning.error=哇！似乎有什么东西在下载新版本Psi出错了。是从psi.vazkii.us下载的吗？
-psi.versioning.disabled=对不起。这项功能目前由于服务器主机问题而被禁用，它很快就会回来。
+psi.versioning.disabled=对不起。这项功能目前由于服务器主机问题而被禁用，它很快就会恢复。
 
 # BLOCK NAMES
 tile.psi:cadAssembler.name=CAD组装器
@@ -120,26 +120,26 @@ item.psi:cadColorizerRed.name=红色CAD着色器
 item.psi:cadColorizerBlack.name=黑色CAD着色器
 item.psi:cadColorizerRainbow.name=全色谱CAD着色器
 item.psi:cadColorizerPsi.name=Psi CAD着色器
-item.psi:spellBullet.name=魔力子弹
-item.psi:spellBulletActive.name=已编程魔力子弹
-item.psi:spellBulletProjectile.name=抛射魔力子弹
-item.psi:spellBulletProjectileActive.name=已编程抛射魔力子弹
-item.psi:spellBulletLoop.name=随身法阵魔力子弹
-item.psi:spellBulletLoopActive.name=已编程随身法阵魔力子弹
-item.psi:spellBulletCircle.name=圆环法阵魔力子弹
-item.psi:spellBulletCircleActive.name=已编程圆环法阵魔力子弹
-item.psi:spellBulletGrenade.name=榴弹魔力子弹
-item.psi:spellBulletGrenadeActive.name=已编程榴弹魔力子弹
-item.psi:spellBulletCharge.name=电荷魔力子弹
-item.psi:spellBulletChargeActive.name=已编程电荷魔力子弹
-item.psi:spellBulletMine.name=挖掘型魔力子弹
-item.psi:spellBulletMineActive.name=已编程挖掘型魔力子弹
-item.psi:spellDrive.name=魔法驱动器
+item.psi:spellBullet.name=魔术子弹
+item.psi:spellBulletActive.name=已编程魔术子弹
+item.psi:spellBulletProjectile.name=投射魔术子弹
+item.psi:spellBulletProjectileActive.name=已编程投射魔术子弹
+item.psi:spellBulletLoop.name=随身法阵魔术子弹
+item.psi:spellBulletLoopActive.name=已编程随身法阵魔术子弹
+item.psi:spellBulletCircle.name=圆环法阵魔术子弹
+item.psi:spellBulletCircleActive.name=已编程圆环法阵魔术子弹
+item.psi:spellBulletGrenade.name=榴弹魔术子弹
+item.psi:spellBulletGrenadeActive.name=已编程榴弹魔术子弹
+item.psi:spellBulletCharge.name=电荷魔术子弹
+item.psi:spellBulletChargeActive.name=已编程电荷魔术子弹
+item.psi:spellBulletMine.name=挖掘型魔术子弹
+item.psi:spellBulletMineActive.name=已编程挖掘型魔术子弹
+item.psi:spellDrive.name=魔术驱动器
 item.psi:psimetalShovel.name=Psi金属铲
 item.psi:psimetalPickaxe.name=Psi金属镐
 item.psi:psimetalAxe.name=Psi金属斧
 item.psi:psimetalSword.name=Psi金属剑
-item.psi:detonator.name=魔法炸药
+item.psi:detonator.name=魔力炸药
 item.psi:psimetalExosuitHelmet.name=Psi金属头盔
 item.psi:psimetalExosuitChestplate.name=Psi金属护甲
 item.psi:psimetalExosuitLeggings.name=Psi金属护腿
@@ -180,11 +180,11 @@ psi.spellstat.cost.desc=Psi零件消耗
 psi.spellstat.projection=投射
 psi.spellstat.projection.desc=魔法量
 psi.spellstat.bandwidth=带宽
-psi.spellstat.bandwidth.desc=术式的宽度或长度(最大值)
+psi.spellstat.bandwidth.desc=法术的宽度或长度(最大值)
 
 # BULLET TYPES
 psi.bulletType0=普通
-psi.bulletType1=抛射
+psi.bulletType1=投射
 psi.bulletType2=随身法阵
 psi.bulletType3=圆环法阵
 psi.bulletType4=榴弹
@@ -203,10 +203,10 @@ psi.event.lowHp=&b事件&7: 低血量
 
 # SPELl PIECE NAMES
 # -- SELECTORS
-psi.spellpiece.selectorCaster=选择: 魔法师
+psi.spellpiece.selectorCaster=选择: 魔术师
 psi.spellpiece.selectorCaster.desc=选择正在进行法术的人
-psi.spellpiece.selectorFocalPoint=选择: 焦点
-psi.spellpiece.selectorFocalPoint.desc=选择法术焦点实体
+psi.spellpiece.selectorFocalPoint=选择: 观察点
+psi.spellpiece.selectorFocalPoint.desc=选择魔术师观察点
 psi.spellpiece.selectorNearbyItems=选择: 最近的物品
 psi.spellpiece.selectorNearbyItems.desc=选择离给予坐标最近物品
 psi.spellpiece.selectorNearbyLiving=选择: 最近的生物
@@ -222,7 +222,7 @@ psi.spellpiece.selectorNearbySmeltables.desc=选择离给予坐标最近容器
 psi.spellpiece.selectorLoopcastIndex=选择: 随身法阵指数
 psi.spellpiece.selectorLoopcastIndex.desc=选择随身法杖完成的工作量
 psi.spellpiece.selectorBlockBroken=选择: 方块破坏
-psi.spellpiece.selectorBlockBroken.desc=选择破坏方块(由于工具)
+psi.spellpiece.selectorBlockBroken.desc=选择被破坏方块(由于工具)
 psi.spellpiece.selectorBlockSideBroken=选择: 方块破坏面
 psi.spellpiece.selectorBlockSideBroken.desc=选择方块被破坏的一面(由于工具)
 psi.spellpiece.selectorAttackTarget=选择: 攻击目标
@@ -325,7 +325,7 @@ psi.spellpiece.constantNumber.desc=选择并输入设定值
 psi.spellpiece.constantPi=常数: π
 psi.spellpiece.constantPi.desc=返回π值
 psi.spellpiece.constantWrapper=常数: 子函数
-psi.spellpiece.constantWrapper.desc用于统计计算常数的子函数
+psi.spellpiece.constantWrapper.desc=用于统计计算常数的子函数
 
 # -- OTHERS
 psi.spellpiece.connector=连接器
@@ -334,8 +334,8 @@ psi.spellpiece.errorSuppressor=错误抑制
 psi.spellpiece.errorSuppressor.desc=禁止由术式引发的错误
 
 # -- TRICKS
-psi.spellpiece.trickDebug=术式: Debug
-psi.spellpiece.trickDebug.desc=用于测试，打印输出目标
+psi.spellpiece.trickDebug=术式: 调试
+psi.spellpiece.trickDebug.desc=用于测试输出目标
 psi.spellpiece.trickDelay=术式: 休眠
 psi.spellpiece.trickDelay.desc=延迟法术传递速度
 psi.spellpiece.trickDie=术式: 切断
